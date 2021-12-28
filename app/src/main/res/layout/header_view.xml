@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/rlMaintHeader"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:background="@drawable/gradientdrawable" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/log"/>
+
+        <TextView
+            android:text="Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="HN"
+            android:background="@null"
+            android:textColor="#ffffff"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:id="@+id/btn_language"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

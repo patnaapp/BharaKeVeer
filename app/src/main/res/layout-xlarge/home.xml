@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/imgHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_screen_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="291dp"
+        android:id="@+id/ashok"
+        android:background="@drawable/ashok"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="210dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ashok"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homage and support to"
+            android:textStyle="normal"
+            android:textColor="#292929"
+            android:textSize="32dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INDIA'S BRAVEHEARTS"
+            android:textStyle="bold"
+            android:textColor="#313131"
+            android:textSize="44dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tv2"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="#ED1B22"
+            android:id="@+id/underlineview"
+            android:layout_marginRight="120dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ministry of Home Affairs \n Government of India"
+            android:textStyle="normal"
+            android:textColor="#444547"
+            android:textSize="36dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tv3"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ashok"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <ImageView
+        android:layout_width="740dp"
+        android:layout_height="150dp"
+        android:id="@+id/bkv"
+        android:background="@drawable/bhartkeveer"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This App is an initiative to pay homage to the bravehearts who laid down their lives in the line of duty.Using this platform individuals can contribute directly into the bank accounts of the bravehearts' kin."
+        android:textStyle="bold"
+        android:textColor="#151314"
+        android:textSize="32dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tv4"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:background="@drawable/btncornerdesign"
+            android:id="@+id/buttonskip"
+            android:text="@string/btnskip"
+            android:textColor="#ffffff"
+            android:textStyle="normal"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="60dp"
+        android:background="@drawable/nic_logo"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="@string/footer"
+        android:padding="20dp"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="80dp"
+        android:background="@drawable/digital_gov"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

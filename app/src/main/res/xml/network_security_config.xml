@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">bharatkeveer.gov.in</domain>
+        <pin-set expiration="2025-03-21">
+            <pin digest="SHA-256">A0us4Wg8ZwLOrXMWm8W4BsECg+dz98ntmZZAmm8if9c=</pin>
+            <pin digest="SHA-256">5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w=</pin>
+        </pin-set>
+        <trustkit-config enforcePinning="true"/>
+    </domain-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

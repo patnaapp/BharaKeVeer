@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".GalleryWebActivity">
+
+
+
+
+    <ProgressBar
+        android:layout_centerHorizontal="true"
+        android:layout_height="225dp"
+        android:layout_width="225dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/backflag"
+        android:indeterminateDrawable="@drawable/progresssatellite"
+        android:id="@+id/progressBar1"/>
+
+    <ProgressBar
+        android:layout_centerHorizontal="true"
+        android:layout_height="140dp"
+        android:layout_width="140dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:indeterminateDrawable="@drawable/my_progress"
+        android:layout_alignLeft="@+id/progressBar1"
+        android:layout_alignRight="@+id/progressBar1"
+        android:layout_alignTop="@+id/progressBar1"
+        android:layout_marginTop="45dp"
+        android:id="@+id/progressBar2"/>
+
+    <TextView
+        android:layout_below="@+id/progressBar1"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoadingText"
+        android:layout_width="fill_parent"
+        android:fontFamily="cursive"
+        android:textColor="#07008b"
+        android:textStyle="bold"
+        android:text="Loading Bharat Ke Veer.\nPlease Wait.."
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <WebView
+        android:id="@+id/activity_main_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
+
+

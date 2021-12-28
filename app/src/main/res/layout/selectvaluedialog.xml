@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       android:background="#2E2E2E"
+        >
+
+
+        <LinearLayout
+        android:id="@+id/linlayout_daily"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="3dp" >
+            <RadioGroup
+                android:id="@+id/rg_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+            <RadioButton
+                android:text="Search by Name"
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/radiobtn_name"
+                android:buttonTint="@color/radio_color"/>
+
+            <RadioButton
+                android:text="Search by Designation"
+                android:layout_width="302dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/radiobtn_desig"
+                android:buttonTint="@color/radio_color"/>
+
+
+            <RadioButton
+                android:text="Search by State"
+                android:layout_width="304dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/radiobtn_state"
+                android:buttonTint="@color/radio_color"
+                />
+
+
+
+            </RadioGroup>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

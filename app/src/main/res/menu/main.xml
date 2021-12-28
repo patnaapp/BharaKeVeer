@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="be.hcpl.android.example.MainActivity">
+
+    <item
+        android:id="@+id/menu_Home"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+
+        android:title="En" />
+    <item
+        android:id="@+id/menu_Edit"
+        android:orderInCategory="100"
+        android:title="Hn"/>
+</menu>
